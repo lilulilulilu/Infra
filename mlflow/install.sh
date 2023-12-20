@@ -12,6 +12,7 @@ docker run -it -p 9033:9000 -p 9094:9090 -d --name minio -v /data/minio:/data -e
 
 # minIO访问地址:
 # http://192.168.0.1:9094
+# 创建一个名为“mlflow”的bucket给mlflow使用
 
 # 2.安装mysql
 # （1）方式一：docker安装
